@@ -1,0 +1,167 @@
+* img {
+  max-width: 100%; }
+
+a:link, a:hover, a:visited {
+  color: white; }
+
+.x-navbar {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  width: 100%;
+  z-index: 999; }
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:visited, .navbar-default .navbar-nav > li > a:link {
+  color: white; }
+
+.navbar-nav > li > a {
+  transition: all 0.5s; }
+
+.navbar-nav > li > a:after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #d7842a;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transition: all 0.5s; }
+
+.navbar-nav > li > a:hover:after {
+  left: 0;
+  width: 100%; }
+
+.navActive {
+  color: #d7842a !important; }
+
+.test1 {
+  background-color: #ff513c; }
+
+.test2 {
+  background-color: #569949; }
+
+.test3 {
+  background-color: #f9ff68; }
+
+body, html {
+  min-height: 100%; }
+
+body {
+  overflow-x: hidden; }
+
+.logo {
+  padding: 5px 0; }
+  .logo img {
+    width: auto;
+    height: 100%; }
+
+.x-panel {
+  color: white;
+  overflow: hidden !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important; }
+
+#footer {
+  background-color: #444444;
+  height: 80px;
+  overflow: hidden;
+  position: relative; }
+  #footer p {
+    width: 100%;
+    color: #a8a8a8;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    #footer p a:link, #footer p a:visited {
+      color: #a8a8a8 !important; }
+
+#loaderWrap {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100000;
+  overflow: hidden; }
+  #loaderWrap p {
+    text-align: center;
+    color: #cacaca;
+    font-size: 12px; }
+  #loaderWrap #loader {
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+    animation: loader 5s infinite;
+    background-image: url("../image/yuanquan.png");
+    background-size: 100% 100%; }
+
+@keyframes loader {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+@media (max-width: 768px) {
+  .navbar-collapse {
+    background-color: #494949 !important;
+    width: 150px;
+    position: absolute;
+    right: 20px;
+    text-align: center;
+    border: none; }
+
+  #indexWrap #panel1 .col-md-4 {
+    margin-top: 50px; }
+  #indexWrap #panel2 .right {
+    padding-top: 0 !important;
+    padding-bottom: 20px !important; }
+
+  #providerWrap #panel3 .m_css {
+    margin-bottom: 60px !important; }
+  #providerWrap #panel4 .saoerweima {
+    font-size: 20px;
+    margin-top: 20px !important; }
+  #providerWrap #panel4 .toDowm {
+    margin-bottom: 20px !important; }
+
+  #cooperateWrap #cooperateBanner h1 {
+    margin-top: 100px !important; }
+  #cooperateWrap #panel1 .hand {
+    margin-top: 145px !important; }
+  #cooperateWrap #panel1 .p2 {
+    margin-bottom: 260px !important; }
+  #cooperateWrap #panel2 .p1 {
+    margin-top: 145px !important; }
+  #cooperateWrap #panel2 .p2 {
+    margin-bottom: 260px !important; }
+  #cooperateWrap #panel3 .p1 {
+    margin-top: 145px !important; }
+  #cooperateWrap #panel3 .p2 {
+    margin-bottom: 260px !important; }
+  #cooperateWrap #panel4 .p1 {
+    margin-top: 145px !important; }
+  #cooperateWrap #panel4 .p2 {
+    margin-bottom: 260px !important; }
+
+  #aboutWrap .erweima {
+    width: 100px !important;
+    height: 100px !important; }
+
+  #appWrap .title {
+    margin-bottom: 20px; }
+    #appWrap .title h1 {
+      font-size: 35px !important;
+      text-align: left !important; }
+  #appWrap .headerImg img {
+    margin-top: 200px !important; }
+  #appWrap .sm {
+    margin-top: 50px; } }
+
+/*# sourceMappingURL=public.css.map */

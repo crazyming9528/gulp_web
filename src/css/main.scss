@@ -1,0 +1,305 @@
+
+$baseColor:#d7842a;
+$whiteColor1:#ddd;
+$grayColor:#8c8c8c;
+$grayColor2: #444444;
+$navHeight:55px;
+
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+}
+
+
+.navbar{
+  margin-bottom: 0;
+  border-radius: 0;
+
+
+  .navbar-brand,logo,a{
+    height: $navHeight;
+    line-height: $navHeight/2!important;
+
+  }
+
+  .navbar-nav>li>a{
+    color: #cecece;
+    transition: all 0.5s ;
+  }
+  .navbar-nav>li>a:hover{
+    color: white;
+
+  }
+
+
+
+
+}
+
+
+@media (min-width: 768px){
+
+  .navbar{
+    background-color: transparent;
+    border-bottom: 0;
+
+  }
+
+
+.aActic{
+
+  color:$baseColor!important;
+
+
+
+
+}
+  .navbar-nav>li>a:after{
+
+    content: "";
+    width:0;
+    height:2px;
+    background-color: $baseColor;
+    position:absolute;
+    left:50%;
+    bottom: 0;
+    transition: all 0.5s ;
+
+  }
+
+
+  .navbar-nav>li>a:hover:after{
+    left: 0;
+    width: 100%;
+
+  }
+
+
+
+
+
+}
+
+
+
+#headerWrap{
+
+  color: $baseColor;
+  a:link,a:visited{
+    color: white!important;
+  }
+  a:hover{
+    color: $baseColor!important;
+  }
+
+  #nav{
+    .logo{
+      height: 100%;
+    }
+  }
+
+
+  #header{
+    overflow: hidden;
+    padding-top: $navHeight+50px;
+    background-image: url("../image/home_banner_bg_01.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    position: relative;
+
+    .headerInfo{
+      color: white;
+      position: relative;
+
+      h1{
+        font-size: 37px;
+      }
+      h2{
+        font-size: 26px;
+      }
+
+      p{
+        font-size: 14px;
+        color: $whiteColor1;
+      }
+
+      .qrCode{
+        width: 100px;
+
+        p{
+         margin-top: 10px;
+          font-size: 8px;
+          color: $grayColor;
+        }
+
+        img{
+          width: 100px;
+          height: 100px;
+        }
+
+      }
+
+
+
+    }
+
+    .headerImg{
+
+      img{
+        width: 100%;
+        height: 100%;
+
+      }
+    }
+
+
+
+
+  }
+
+}
+
+.mainbody0{
+  height: 50px;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.mainbody1{
+  overflow: hidden;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px 0;
+  .row{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+.mainbody2{
+  background:url('../image/home_fw_bg.png')50% 50%/cover no-repeat;
+  overflow: hidden;
+  padding: 15px 0;
+
+  p{
+    color: $whiteColor1;
+  }
+
+  .button {
+    background: #ee832b;
+    margin-top: 30px;
+    border-radius: 25px;
+    width: 200px;
+    outline: none;
+    border: 0;
+    line-height: 3em;
+    height: 3em;
+    color: white;
+  }
+}
+
+
+.mainbody3{
+  overflow: hidden;
+  background:url('../image/home_xq_bg.png')50% 50%/cover no-repeat;
+
+
+  p{
+    color: $grayColor;
+  }
+
+
+}
+.mainbody4{
+  overflow: hidden;
+}
+.mainbody5{
+  a:link,a:visited{
+    color: $baseColor!important;
+  }
+  a:hover{
+    color: $baseColor!important;
+  }
+
+  overflow: hidden;
+   .date {
+    width: 6em;
+    height: 6em;
+    border: 2px solid #999;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+     p{
+       text-align: center;
+       font-size: 1em;
+       color: #999;
+       margin-top: -8px;
+     }
+  }
+}
+
+
+
+
+#providerHeader{
+  background-image: url("../image/fws_banner_bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#cooperateHeader{
+  background-image: url("../image/hz_banner_bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+#footer{
+  background-color: $grayColor2;
+  height: 80px;
+  overflow: hidden;
+  position: relative;
+  p{
+    width: 100%;
+    color: #a8a8a8;
+    text-align:center;
+    font-size:10px;
+    margin-bottom: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    a:link,a:visited{
+      color: #a8a8a8!important;
+    }
+
+  }
+}
+
+
+
+
+
+//mobile
+@media (max-width: 768px){
+
+
+  .qrCode {
+    margin: 0 auto;
+    margin-top: 60px;
+  }
+
+
+}

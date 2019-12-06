@@ -1,0 +1,177 @@
+body {
+  width: 100%;
+  overflow-x: hidden; }
+
+a {
+  text-decoration: none; }
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0; }
+  .navbar .navbar-brand, .navbar logo, .navbar a {
+    height: 55px;
+    line-height: 27.5px !important; }
+  .navbar .navbar-nav > li > a {
+    color: #cecece;
+    transition: all 0.5s; }
+  .navbar .navbar-nav > li > a:hover {
+    color: white; }
+
+@media (min-width: 768px) {
+  .navbar {
+    background-color: transparent;
+    border-bottom: 0; }
+
+  .aActic {
+    color: #d7842a !important; }
+
+  .navbar-nav > li > a:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #d7842a;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transition: all 0.5s; }
+
+  .navbar-nav > li > a:hover:after {
+    left: 0;
+    width: 100%; } }
+#headerWrap {
+  color: #d7842a; }
+  #headerWrap a:link, #headerWrap a:visited {
+    color: white !important; }
+  #headerWrap a:hover {
+    color: #d7842a !important; }
+  #headerWrap #nav .logo {
+    height: 100%; }
+  #headerWrap #header {
+    overflow: hidden;
+    padding-top: 105px;
+    background-image: url("../image/home_banner_bg_01.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 550px;
+    position: relative; }
+    #headerWrap #header .headerInfo {
+      color: white;
+      position: relative; }
+      #headerWrap #header .headerInfo h1 {
+        font-size: 37px; }
+      #headerWrap #header .headerInfo h2 {
+        font-size: 26px; }
+      #headerWrap #header .headerInfo p {
+        font-size: 14px;
+        color: #ddd; }
+      #headerWrap #header .headerInfo .qrCode {
+        width: 100px; }
+        #headerWrap #header .headerInfo .qrCode p {
+          margin-top: 10px;
+          font-size: 8px;
+          color: #8c8c8c; }
+        #headerWrap #header .headerInfo .qrCode img {
+          width: 100px;
+          height: 100px; }
+    #headerWrap #header .headerImg img {
+      width: 100%;
+      height: 100%; }
+
+.mainbody0 {
+  height: 50px;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.mainbody1 {
+  overflow: hidden;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px 0; }
+  .mainbody1 .row {
+    margin-left: 0;
+    margin-right: 0; }
+
+.mainbody2 {
+  background: url("../image/home_fw_bg.png") 50% 50%/cover no-repeat;
+  overflow: hidden;
+  padding: 15px 0; }
+  .mainbody2 p {
+    color: #ddd; }
+  .mainbody2 .button {
+    background: #ee832b;
+    margin-top: 30px;
+    border-radius: 25px;
+    width: 200px;
+    outline: none;
+    border: 0;
+    line-height: 3em;
+    height: 3em;
+    color: white; }
+
+.mainbody3 {
+  overflow: hidden;
+  background: url("../image/home_xq_bg.png") 50% 50%/cover no-repeat; }
+  .mainbody3 p {
+    color: #8c8c8c; }
+
+.mainbody4 {
+  overflow: hidden; }
+
+.mainbody5 {
+  overflow: hidden; }
+  .mainbody5 a:link, .mainbody5 a:visited {
+    color: #d7842a !important; }
+  .mainbody5 a:hover {
+    color: #d7842a !important; }
+  .mainbody5 .date {
+    width: 6em;
+    height: 6em;
+    border: 2px solid #999;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px; }
+    .mainbody5 .date p {
+      text-align: center;
+      font-size: 1em;
+      color: #999;
+      margin-top: -8px; }
+
+#providerHeader {
+  background-image: url("../image/fws_banner_bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#cooperateHeader {
+  background-image: url("../image/hz_banner_bg.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#footer {
+  background-color: #444444;
+  height: 80px;
+  overflow: hidden;
+  position: relative; }
+  #footer p {
+    width: 100%;
+    color: #a8a8a8;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    #footer p a:link, #footer p a:visited {
+      color: #a8a8a8 !important; }
+
+@media (max-width: 768px) {
+  .qrCode {
+    margin: 0 auto;
+    margin-top: 60px; } }
+
+/*# sourceMappingURL=main.css.map */

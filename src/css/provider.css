@@ -1,0 +1,112 @@
+#providerWrap #providerBanner {
+  padding-top: 50px;
+  height: 600px;
+  background-image: url("../image/fws_banner_bg.jpg"); }
+  #providerWrap #providerBanner .col-md-12 {
+    margin-top: 180px; }
+#providerWrap #panel1 {
+  height: 650px;
+  background-image: url("../image/about_bg.jpg");
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative; }
+  #providerWrap #panel1 ul, #providerWrap #panel1 li {
+    list-style: none;
+    border-radius: 5px;
+    margin-top: 10px; }
+  #providerWrap #panel1 .tab {
+    width: 100px;
+    float: left; }
+  #providerWrap #panel1 .tab .tab-nav {
+    width: 100px; }
+  #providerWrap #panel1 .tab .tab-nav li {
+    float: left;
+    width: 100px;
+    background: #d7842a; }
+  #providerWrap #panel1 .tab .tab-nav li a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center; }
+  #providerWrap #panel1 .tab .tab-nav li.actived {
+    background: #ffffff; }
+  #providerWrap #panel1 .tab .tab-nav li.actived a {
+    color: #d7842a; }
+  #providerWrap #panel1 .tab .content-wrap {
+    position: absolute;
+    top: 0;
+    left: 350px; }
+  #providerWrap #panel1 .tab .content-wrap img {
+    width: 100%;
+    height: 100%; }
+  #providerWrap #panel1 .tab .content-wrap .content-item {
+    width: 574px;
+    position: absolute;
+    height: 610px;
+    display: none; }
+  #providerWrap #panel1 .tab .content-wrap .current {
+    display: block; }
+#providerWrap #panel2 {
+  color: black;
+  background-color: #f7f7f7; }
+  #providerWrap #panel2 h1 {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  #providerWrap #panel2 p {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  #providerWrap #panel2 img {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+#providerWrap #panel3 {
+  color: #000000;
+  background: url("../image/fws_xa_bg.jpg"); }
+  #providerWrap #panel3 .title {
+    margin-top: 80px;
+    color: #fff;
+    font-size: 48px; }
+  #providerWrap #panel3 .info1 {
+    margin-top: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 14px; }
+  #providerWrap #panel3 .col-md-4 h3 {
+    color: #fff;
+    font-size: 24px; }
+  #providerWrap #panel3 .col-md-4 p {
+    color: #fff;
+    font-size: 14px; }
+  #providerWrap #panel3 .m_css {
+    margin-bottom: 120px; }
+#providerWrap #panel4 {
+  color: black;
+  background-color: #f7f7f7; }
+  #providerWrap #panel4 .erweima {
+    margin-top: 60px; }
+  #providerWrap #panel4 .saoerweima {
+    margin-top: 52px;
+    margin-bottom: 54px;
+    color: #d7842a; }
+  #providerWrap #panel4 a {
+    display: inline-block;
+    width: 160px;
+    height: 60px;
+    line-height: 60px;
+    border: 1px solid #d7842a;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: all 0.8s;
+    color: #d7842a; }
+  #providerWrap #panel4 a:hover {
+    color: #d7842a;
+    border: 1px solid #d7842a;
+    box-shadow: 0 0 30px 0 #d7842a; }
+  #providerWrap #panel4 .toDowm {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+
+/*# sourceMappingURL=provider.css.map */

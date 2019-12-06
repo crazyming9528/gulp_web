@@ -1,0 +1,27 @@
+#loaderWrap {
+  font-family: "\5FAE\8F6F\96C5\9ED1";
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  #loaderWrap p {
+    text-align: center;
+    color: #cacaca;
+    font-size: 12px; }
+  #loaderWrap #loader {
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    animation: loader 5s infinite;
+    background-image: url("../image/yuanquan.png");
+    background-size: 100% 100%; }
+
+@keyframes loader {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+/*# sourceMappingURL=loader.css.map */

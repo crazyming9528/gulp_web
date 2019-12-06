@@ -1,0 +1,180 @@
+@charset "utf-8";
+$baseColor: #d7842a;
+$whiteColor1: #ddd;
+$grayColor: #8c8c8c;
+$grayColor2: #444444;
+@keyframes faguang
+{
+
+  0%{
+    box-shadow:0 0 0 0 #ffffff
+  }
+  50%{
+    box-shadow:0 0  20px 0 #ffffff
+  }
+  100%{
+    box-shadow:0 0 0 0 #ffffff
+
+  }
+}
+
+#indexWrap {
+
+  #indexBanner {
+    padding-top: 50px;
+    background-image: url("../image/home_banner_bg_01.jpg");
+
+    p {
+      color: $whiteColor1;
+    }
+
+    h1 {
+      margin-top: 100px;
+      margin-bottom: 10px;
+    }
+
+    .qrCode {
+      width: 135px;
+      p {
+        text-align: center;
+        font-size: 10px;
+        line-height: 28px;
+      }
+    }
+
+    a{
+      display: inline-block;
+      width: 160px;
+      height: 60px;
+      line-height: 60px;
+      border: 1px solid #fff;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 3px;
+      transition: all 0.8s ;
+
+    }
+
+
+    a:hover{
+      color: $baseColor;
+      border: 1px solid $baseColor;
+      box-shadow:0 0  30px 0 $baseColor;
+    }
+
+    .toDowm{
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+  }
+
+  #indexNotice {
+    margin-top: 15px;
+
+  }
+
+  #panel1 {
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    .text-center{
+      p{
+        text-align: left!important;
+      }
+
+    }
+
+
+  }
+
+  #panel2 {
+
+    background-image: url("../image/home_fw_bg.png");
+    .right {
+      padding-top: 25%;
+    }
+
+  }
+
+  #panel3 {
+    color: #000000;
+
+    background-image: url("../image/home_xq_bg.png");
+    .left {
+      padding-top: 5%;
+    }
+  }
+
+  #panel4 {
+    color: black;
+    background-color: #f7f7f7;
+
+    h1 {
+      margin-top: 50px;
+      margin-bottom: 50px;
+
+    }
+    p {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    img {
+      margin-top: 50px;
+      margin-bottom: 50px;
+
+    }
+
+  }
+
+  #panel5 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+
+    li {
+      list-style: none;
+      cursor: pointer;
+    }
+
+    .top {
+
+      h1 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+      }
+      p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+    }
+
+    .news {
+      li {
+        margin-left: -40px;
+      }
+
+      span {
+        margin-right: 20px;
+      }
+      h3 {
+        font-size: 24px;
+      }
+      p {
+        color: $grayColor;
+        font-size: 13px;
+
+      }
+
+      h3:hover {
+        color: $baseColor;
+
+      }
+
+    }
+
+  }
+}
